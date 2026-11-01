@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Design24 Studio | Luxury Architecture & Interior Design | Surat</title>
+    <meta name="description" content="B.Design24 Studio — Award-winning luxury architecture and interior design firm in Surat, Gujarat. Bespoke residential, commercial & hospitality spaces crafted with uncompromised elegance.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Montserrat:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">B.Design24</div>
+            <div class="preloader-bar"><div class="preloader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-b">B.</span><span class="logo-design">Design24</span><span class="logo-studio">Studio</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+                <li><a href="#awards" class="nav-link">Awards</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="nav-cta">Book Consultation</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+            <li><a href="#philosophy" class="mobile-nav-link">Philosophy</a></li>
+            <li><a href="#awards" class="mobile-nav-link">Awards</a></li>
+            <li><a href="#testimonials" class="mobile-nav-link">Testimonials</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="mobile-cta">Book Consultation</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop');">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2000&auto=format&fit=crop');">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2000&auto=format&fit=crop');">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000&auto=format&fit=crop');">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">Est. Surat, Gujarat</div>
+            <h1 class="hero-title">
+                <span class="hero-title-line">Crafting</span>
+                <span class="hero-title-line accent">Extraordinary</span>
+                <span class="hero-title-line">Living Spaces</span>
+            </h1>
+            <p class="hero-subtitle">Award-winning architecture & interior design studio creating bespoke luxury residences, commercial spaces, and hospitality environments across India.</p>
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+                <a href="#contact" class="btn btn-outline">Schedule a Visit</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+        <div class="hero-slider-controls">
+            <button class="slider-btn prev-btn" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots"></div>
+            <button class="slider-btn next-btn" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>Architecture</span><span class="marquee-dot">◆</span>
+                <span>Interior Design</span><span class="marquee-dot">◆</span>
+                <span>Landscape Design</span><span class="marquee-dot">◆</span>
+                <span>Bespoke Furniture</span><span class="marquee-dot">◆</span>
+                <span>Space Planning</span><span class="marquee-dot">◆</span>
+                <span>Luxury Residences</span><span class="marquee-dot">◆</span>
+                <span>Architecture</span><span class="marquee-dot">◆</span>
+                <span>Interior Design</span><span class="marquee-dot">◆</span>
+                <span>Landscape Design</span><span class="marquee-dot">◆</span>
+                <span>Bespoke Furniture</span><span class="marquee-dot">◆</span>
+                <span>Space Planning</span><span class="marquee-dot">◆</span>
+                <span>Luxury Residences</span><span class="marquee-dot">◆</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img-main">
+                        <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=800&auto=format&fit=crop" alt="B.Design24 Studio Interior">
+                        <div class="about-img-badge">
+                            <span class="badge-number">15+</span>
+                            <span class="badge-text">Years of Excellence</span>
+                        </div>
+                    </div>
+                    <div class="about-img-secondary">
+                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=600&auto=format&fit=crop" alt="Luxury Living Room Design">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="section-label">About Us</div>
+                    <h2 class="section-title">Where Vision<br>Meets <span class="accent">Artistry</span></h2>
+                    <div class="about-divider"></div>
+                    <p class="about-lead">B.Design24 Studio is an award-winning architecture and interior design firm based in Surat, Gujarat — led by visionary designer <strong>Bheru Jangid</strong>.</p>
+                    <p>We specialize in crafting luxurious, detail-oriented residential and commercial spaces that seamlessly blend high-end aesthetics with practical functionality. Every project is a testament to fine craftsmanship, custom-made artistry, and curated materials sourced from around the world.</p>
+                    <p>From private luxury residences and corporate offices to showrooms and hospitality projects, our portfolio spans across Surat, Ahmedabad, Mumbai, Bangalore, and beyond.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="200">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Design Awards</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Cities Served</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">Our Expertise</div>
+                <h2 class="section-title">Comprehensive Design <span class="accent">Solutions</span></h2>
+                <p class="section-desc">From concept to completion, we offer an all-encompassing suite of luxury design services tailored to your unique vision.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <div class="service-number">01</div>
+                    <h3>Architectural Design</h3>
+                    <p>Complete architectural conceptualization and execution for custom homes, private residences, villas, and commercial buildings — from blueprint to reality.</p>
+                    <div class="service-line"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <div class="service-number">02</div>
+                    <h3>Interior Design</h3>
+                    <p>Tailored interior environments featuring custom furniture, specialized lighting, coordinated upholstery, premium materials, and meticulous spatial planning.</p>
+                    <div class="service-line"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <div class="service-number">03</div>
+                    <h3>Landscape Design</h3>
+                    <p>Creating breathtaking outdoor environments — terraces, gardens, and courtyards that seamlessly integrate with the core architectural structure.</p>
+                    <div class="service-line"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-chair"></i>
+                    </div>
+                    <div class="service-number">04</div>
+                    <h3>Bespoke Furniture</h3>
+                    <p>Designing and crafting one-of-a-kind furniture pieces with unique material finishes, tailored to complement each architectural project perfectly.</p>
+                    <div class="service-line"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-ruler-combined"></i>
+                    </div>
+                    <div class="service-number">05</div>
+                    <h3>Space Planning</h3>
+                    <p>Strategic spatial analysis and planning to maximize functionality, flow, and aesthetic impact in every square foot of your environment.</p>
+                    <div class="service-line"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="service-number">06</div>
+                    <h3>Commercial & Hospitality</h3>
+                    <p>Designing striking corporate offices, luxury showrooms, boutique hotels, and hospitality spaces that elevate brands and create lasting impressions.</p>
+                    <div class="service-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Selected Works</div>
+                <h2 class="section-title">Our <span class="accent">Portfolio</span></h2>
+                <p class="section-desc">A curated selection of our finest projects — each one a unique narrative of luxury, craftsmanship, and architectural excellence.</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item large" data-category="residential">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop" alt="The Gable House">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Residential</span>
+                                <h3>The Gable House</h3>
+                                <p>A stunning contemporary residence with signature gable rooflines and seamless indoor-outdoor living.</p>
+                                <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=800&auto=format&fit=crop" alt="The Soulful Home">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Residential</span>
+                                <h3>The Soulful Home</h3>
+                                <p>Warm minimalism meets luxury — a private residence celebrating natural light and organic textures.</p>
+                                <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" alt="Luxe Corporate Office">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Commercial</span>
+                                <h3>Luxe Corporate Office</h3>
+                                <p>A sophisticated workspace blending modern efficiency with timeless design elegance.</p>
+                                <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="hospitality">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop" alt="Grand Hospitality Suite">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Hospitality</span>
+                                <h3>Grand Hospitality Suite</h3>
+                                <p>An opulent hotel suite experience that defines the gold standard in boutique hospitality design.</p>
+                                <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800&auto=format&fit=crop" alt="Villa Serene">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Residential</span>
+                                <h3>Villa Serene</h3>
+                                <p>A palatial villa retreat where classical proportions meet contemporary luxury detailing.</p>
+                                <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item large" data-category="commercial">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1200&auto=format&fit=crop" alt="Premium Showroom">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Commercial</span>
+                                <h3>Premium Showroom</h3>
+                                <p>A luxury retail space designed to elevate brand storytelling through immersive spatial design.</p>
+                                <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy / Process Section -->
+    <section id="philosophy" class="philosophy section">
+        <div class="container">
+            <div class="philosophy-grid">
+                <div class="philosophy-content">
+                    <div class="section-label">Our Philosophy</div>
+                    <h2 class="section-title">Design Is the<br><span class="accent">Silent Ambassador</span><br>of Your Lifestyle</h2>
+                    <p class="philosophy-lead">At B.Design24 Studio, we believe that exceptional design transcends mere aesthetics. It is about creating spaces that resonate with the soul — environments that tell your story, reflect your aspirations, and stand the test of time.</p>
+                    <div class="philosophy-values">
+                        <div class="philosophy-value">
+                            <div class="value-icon"><i class="fas fa-gem"></i></div>
+                            <div>
+                                <h4>Uncompromised Quality</h4>
+                                <p>Every material, every finish, every detail is curated to the highest standard of luxury craftsmanship.</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-value">
+                            <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
+                            <div>
+                                <h4>Innovation & Tradition</h4>
+                                <p>We blend cutting-edge design technology with time-honored artisanal techniques from around the globe.</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-value">
+                            <div class="value-icon"><i class="fas fa-handshake"></i></div>
+                            <div>
+                                <h4>Client-Centric Approach</h4>
+                                <p>Your vision is our blueprint. We collaborate intimately to bring your dream spaces to life.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="philosophy-image">
+                    <img src="https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?q=80&w=900&auto=format&fit=crop" alt="Design Philosophy">
+                    <div class="philosophy-quote">
+                        <blockquote>"Every space we create is a conversation between light, material, and the human spirit."</blockquote>
+                        <cite>— Bheru Jangid, Founder</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Process -->
+    <section class="process section">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">How We Work</div>
+                <h2 class="section-title">Our Design <span class="accent">Process</span></h2>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Discovery & Consultation</h3>
+                        <p>We begin with an in-depth consultation to understand your vision, lifestyle, and aspirations for the space.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Concept & Design Development</h3>
+                        <p>Our team creates detailed concepts, mood boards, 3D visualizations, and material palettes for your approval.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Detailed Planning & Documentation</h3>
+                        <p>Every element is meticulously documented — from architectural drawings to furniture specifications and lighting plans.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Execution & Craftsmanship</h3>
+                        <p>Our trusted artisans and craftspeople bring the vision to life with unwavering attention to detail and quality.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3>Styling & Final Reveal</h3>
+                        <p>The finishing touches — art, accessories, and styling — transform the space into a complete, curated experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="awards section">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">Recognition</div>
+                <h2 class="section-title">Awards & <span class="accent">Accolades</span></h2>
+                <p class="section-desc">Our commitment to design excellence has been recognized by leading industry platforms and publications.</p>
+            </div>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>Best of Houzz Design</h3>
+                    <p>Multiple-time recipient of the prestigious Best of Houzz Design Award for outstanding residential interiors.</p>
+                    <span class="award-year">Multiple Years</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon"><i class="fas fa-award"></i></div>
+                    <h3>ArchDaily Featured</h3>
+                    <p>Projects featured on ArchDaily — the world's most visited architecture website — including The Gable House.</p>
+                    <span class="award-year">International</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon"><i class="fas fa-star"></i></div>
+                    <h3>Top Rated on JustDial</h3>
+                    <p>Consistently rated 4.7+ stars on JustDial with exceptional client reviews for quality and professionalism.</p>
+                    <span class="award-year">4.7 ★ Rating</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon"><i class="fas fa-medal"></i></div>
+                    <h3>IDBF Recognition</h3>
+                    <p>Recognized by the Indian Design & Build Forum for excellence in luxury residential architecture.</p>
+                    <span class="award-year">India</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">Client Voices</div>
+                <h2 class="section-title">What Our <span class="accent">Clients</span> Say</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <blockquote>"B.Design24 Studio transformed our vision into a masterpiece. The attention to detail and quality of craftsmanship exceeded every expectation. Our home is truly a work of art."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div>
+                            <strong>Rajesh & Priya Mehta</strong>
+                            <span>Private Residence, Surat</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <blockquote>"Working with Bheru and his team was an extraordinary experience. They understood our brand identity perfectly and created a showroom that leaves every visitor in awe."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div>
+                            <strong>Amit Patel</strong>
+                            <span>Luxury Showroom, Ahmedabad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <blockquote>"The level of sophistication and the bespoke furniture pieces they created for our villa are simply unmatched. B.Design24 is in a league of their own."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div>
+                            <strong>Sneha & Vikram Shah</strong>
+                            <span>Villa Project, Mumbai</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="testimonial-btn prev" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots"></div>
+                <button class="testimonial-btn next" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-bg" style="background-image: url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2000&auto=format&fit=crop');"></div>
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Space?</h2>
+                <p>Let's create something extraordinary together. Schedule a private consultation with our design team.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Begin Your Journey</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-label">Get In Touch</div>
+                    <h2 class="section-title">Let's Create<br>Something <span class="accent">Beautiful</span></h2>
+                    <p>Whether you're envisioning a luxury residence, a statement commercial space, or a bespoke hospitality project — we'd love to hear from you.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Visit Our Studio</h4>
+                                <p>9, Nevil Park, Opp. China Town,<br>Near Spring Valley, Gayatri Mandir Road,<br>New City Light, Althan, Surat,<br>Gujarat 395017, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p><a href="tel:02612267456">0261 226 7456</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p><a href="mailto:info@bdesign24.studio">info@bdesign24.studio</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                            <div>
+                                <h4>Studio Hours</h4>
+                                <p>Mon – Sat: 10:00 AM – 7:00 PM<br>Sunday: By Appointment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="Houzz"><i class="fab fa-houzz"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Request a Consultation</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="firstName" placeholder="First Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="lastName" placeholder="Last Name *" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Phone Number *" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="projectType" required>
+                                <option value="" disabled selected>Project Type *</option>
+                                <option value="residential">Residential</option>
+                                <option value="commercial">Commercial</option>
+                                <option value="hospitality">Hospitality</option>
+                                <option value="landscape">Landscape</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="budget">
+                                <option value="" disabled selected>Estimated Budget Range</option>
+                                <option value="25-50L">₹25 Lakhs – ₹50 Lakhs</option>
+                                <option value="50L-1Cr">₹50 Lakhs – ₹1 Crore</option>
+                                <option value="1-3Cr">₹1 Crore – ₹3 Crore</option>
+                                <option value="3Cr+">₹3 Crore+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Tell us about your project vision..." rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Submit Inquiry <i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.0!2d72.798451!3d21.1571523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04dfc09ee9ac3%3A0xa881ec95e528e864!2sB.Design24Studio!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <span class="logo-b">B.</span><span class="logo-design">Design24</span><span class="logo-studio">Studio</span>
+                    </a>
+                    <p>Award-winning architecture & interior design studio crafting extraordinary living spaces across India. Where vision meets artistry.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#philosophy">Philosophy</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Architectural Design</a></li>
+                        <li><a href="#services">Interior Design</a></li>
+                        <li><a href="#services">Landscape Design</a></li>
+                        <li><a href="#services">Bespoke Furniture</a></li>
+                        <li><a href="#services">Space Planning</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Cities We Serve</h4>
+                    <ul>
+                        <li><a href="#contact">Surat</a></li>
+                        <li><a href="#contact">Ahmedabad</a></li>
+                        <li><a href="#contact">Mumbai</a></li>
+                        <li><a href="#contact">Bangalore</a></li>
+                        <li><a href="#contact">Pan-India</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 B.Design24 Studio. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
